@@ -1,25 +1,34 @@
-<!DOCTYPE html>
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-	<title> ARIA roles</title>
-</head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<img src="www.google.com" alt="this is alternate heading"/>
-	<h1> This is some heading</h1>
-	<ul>
-		<li>This is first item</li>
-		<li>This is second item</li>
-		<li>This is third item</li>
-	</ul>
-	<nav> my navigation</nav>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 role="heading">Welcome to My Portfolio</h1>
+
+  <!-- Image -->
+  <img src="profile.jpg" alt="Portrait of Bharat" role="img">
+
+  <!-- Description -->
+  <p id="about">Hi, I'm Bharat, a passionate developer focused on building accessible and responsive websites.</p>
+
+  <!-- List of Skills -->
+  <section id="skills">
+    <h2 role="heading">Skills</h2>
+    <ul role="list">
+      <li role="listitem">HTML & ARIA</li>
+      <li role="listitem">CSS & Responsive Design</li>
+      <li role="listitem">JavaScript & Accessibility</li>
+    </ul>
+  </section>
 
 </body>
-
 </html>
